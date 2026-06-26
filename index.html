@@ -1,16 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hangul Pop — Support</title>
+  <meta name="description" content="Xenoslab researches and builds useful, playful apps for curious minds.">
+  <title>Xenoslab</title>
+  <link rel="icon" href="assets/hangul-pop-icon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hangul Pop</h1>
-  <p>Korean typing practice game.</p>
-  <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li>Contact: <a href="mailto:ryuharang@naver.com">ryuharang@naver.com</a></li>
-  </ul>
+  <header class="site-header container" aria-label="Site header">
+    <a class="brand" href="index.html" aria-label="Xenoslab home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Xenoslab</span>
+    </a>
+    <a class="header-link" href="privacy.html">Privacy Policy</a>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Apps from Xenoslab</p>
+      <h1>Xenoslab</h1>
+      <p class="hero-copy">
+        We research and build useful, diverse, and playful apps for curious minds.
+      </p>
+    </section>
+
+    <section class="apps-section container" aria-labelledby="apps-title">
+      <div class="section-heading">
+        <h2 id="apps-title">Apps</h2>
+        <p class="section-note">More experiments are on the way.</p>
+      </div>
+
+      <div class="app-grid">
+        <a class="app-card" href="privacy.html" aria-label="Open Hangul Pop introduction and privacy policy">
+          <img class="app-icon" src="assets/hangul-pop-icon.png" alt="Hangul Pop app icon">
+          <h3>Hangul Pop</h3>
+          <p>
+            A playful Hangul typing game designed to make Hangul practice light, repeatable, and fun.
+          </p>
+          <div class="card-action" aria-hidden="true">
+            Learn more <span>→</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <span>© 2026 Xenoslab</span>
+      <div class="footer-links">
+        <a class="email-link" href="mailto:ryuharang@naver.com">Support: ryuharang@naver.com</a>
+        <a class="footer-link" href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
