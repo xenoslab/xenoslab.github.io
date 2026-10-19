@@ -1,0 +1,71 @@
+.app-directory .apps-grid { grid-template-columns: 1fr; }
+.jazz-card { background: linear-gradient(140deg, #f9f5ff, #eee5fa); border-color: #d7c8eb; }
+.jazz-card .card-link { color: #644091; }
+.jazz-card .app-icon { background: #7855b8; }
+.jazz-page { --bg: #f6f2fb; --text: #282035; --muted: #6a5e77; --line: #e4dbee; --surface-2: #fff; --max-width: 1040px; background: var(--bg); color: var(--text); }
+.jazz-page .site-header { background: rgba(246, 242, 251, .95); }
+.jazz-page [lang="ko"] { word-break: keep-all; overflow-wrap: break-word; }
+.jazz-wordmark { display: inline-flex; align-items: center; gap: 11px; font-size: 1.05rem; font-weight: 650; }
+.jazz-wordmark img { border-radius: 10px; }
+.jazz-wordmark strong { color: #7855b8; }
+.language-switch { display: inline-flex; align-items: center; padding: 4px; gap: 2px; border: 1px solid #d9cbe9; border-radius: 999px; background: #fff; }
+.language-switch a { padding: 5px 12px; color: #6a5e77; font-size: .84rem; border-radius: 999px; }
+.language-switch a[aria-current] { background: #7855b8; color: #fff; }
+.jazz-hero { padding: 84px 0 66px; background: radial-gradient(ellipse at 85% 10%, #e4d6f8 0, transparent 64%); }
+.jazz-eyebrow { color: #7855b8; font-size: .78rem; letter-spacing: .14em; font-weight: 750; margin: 0 0 20px; }
+.jazz-hero h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.18; letter-spacing: -.045em; margin: 0 0 24px; font-weight: 800; }
+.jazz-lead { max-width: 730px; font-size: clamp(1.05rem, 2vw, 1.3rem); line-height: 1.75; color: #574965; }
+.jazz-challenge { max-width: 620px; color: var(--muted); font-size: .96rem; line-height: 1.8; }
+.jazz-hero-signature { display: flex; align-items: center; gap: 14px; margin-top: 34px; font-size: 1.1rem; font-weight: 650; }
+.jazz-hero-signature img { border-radius: 15px; }
+.jazz-hero-signature small { display: block; font-size: .82rem; font-weight: 450; color: var(--muted); margin-top: 2px; }
+.jazz-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding-bottom: 72px; }
+.jazz-pillars article { border: 1px solid var(--line); background: #fff; border-radius: 22px; padding: 28px; }
+.jazz-step { display: inline-block; color: #7855b8; font-size: .8rem; font-weight: 750; letter-spacing: .1em; margin-bottom: 14px; }
+.jazz-pillars h2 { font-size: 1.16rem; line-height: 1.4; margin: 0 0 12px; }
+.jazz-pillars p { font-size: .95rem; color: var(--muted); margin: 0; line-height: 1.8; }
+.jazz-journey { padding-top: 12px; padding-bottom: 72px; }
+.jazz-journey h2, .jazz-practice h2, .jazz-support h2 { margin: 0 0 16px; font-size: clamp(1.6rem, 3vw, 2.15rem); line-height: 1.4; letter-spacing: -.025em; }
+.jazz-journey > p:not(.jazz-eyebrow), .jazz-practice p, .jazz-support p { max-width: 780px; color: var(--muted); line-height: 1.85; }
+.jazz-topics { list-style: none; padding: 0; display: flex; gap: 10px; flex-wrap: wrap; margin: 28px 0 0; }
+.jazz-topics li { padding: 10px 19px; border: 1px solid #ded0ee; color: #64468a; border-radius: 999px; background: #efe7f8; font-size: .93rem; }
+.jazz-practice { border-top: 1px solid var(--line); padding-top: 54px; padding-bottom: 44px; }
+.jazz-support { border-top: 1px solid var(--line); padding-top: 44px; padding-bottom: 30px; }
+.jazz-support a, .jazz-back { color: #6c459d; font-weight: 600; }
+.jazz-policy-links { display: flex; gap: 14px 30px; flex-wrap: wrap; margin-top: 24px; }
+.jazz-back { display: block; padding-top: 12px; padding-bottom: 42px; font-size: .95rem; }
+.jazz-policy-container { max-width: 900px; padding-top: 38px; padding-bottom: 70px; }
+.jazz-policy-container > [data-locale] > .jazz-back { padding-bottom: 22px; }
+.legal-document { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 42px; overflow-wrap: anywhere; }
+.legal-document .legal-brand { color: #7855b8; font-weight: 700; font-size: .88rem; margin: 0 0 10px; }
+.legal-document h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1.25; margin: 0 0 18px; }
+.legal-document header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 30px; }
+.legal-document h2 { font-size: 1.2rem; line-height: 1.5; margin: 0 0 14px; }
+.legal-document section { margin: 0 0 36px; scroll-margin-top: 96px; }
+.legal-document p, .legal-document li { font-size: .97rem; line-height: 1.85; color: #53485e; }
+.legal-document li { margin-bottom: 13px; }
+.legal-document ul { padding-left: 22px; }
+.legal-document a { color: #6c459d; text-decoration: underline; text-underline-offset: 3px; }
+.legal-document .legal-sources { font-size: .82rem; }
+.legal-document footer { border-top: 1px solid var(--line); padding-top: 18px; }
+.legal-action a { font-weight: 650; }
+.skip-link { position: absolute; top: -100px; left: 16px; z-index: 99; padding: 12px; background: #fff; border: 2px solid #7855b8; }
+.skip-link:focus { top: 8px; }
+.jazz-page a:focus-visible, .jazz-card:focus-visible { outline: 3px solid #7855b8; outline-offset: 5px; }
+[hidden] { display: none !important; }
+@media (max-width: 720px) {
+  .jazz-hero { padding: 50px 0 42px; }
+  .jazz-hero h1 { font-size: clamp(2.15rem, 9vw, 3.2rem); }
+  .jazz-pillars { grid-template-columns: 1fr; gap: 12px; padding-bottom: 48px; }
+  .jazz-pillars article { padding: 24px; }
+  .jazz-journey { padding-bottom: 42px; }
+  .jazz-practice { padding-top: 34px; padding-bottom: 28px; }
+  .jazz-support { padding-top: 30px; }
+  .jazz-wordmark { font-size: .9rem; gap: 8px; }
+  .jazz-wordmark img { width: 30px; height: 30px; }
+  .language-switch a { font-size: .76rem; padding: 5px 9px; }
+  .legal-document { padding: 27px 21px; border-radius: 20px; }
+  .jazz-policy-container { padding-top: 24px; }
+  .jazz-page .header-inner { gap: 12px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .jazz-card { transition: none; } }
